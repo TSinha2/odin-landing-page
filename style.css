@@ -1,0 +1,45 @@
+/** Navbar/Header **/
+
+ 
+
+body
+{
+    margin: 0;
+    font-family: 'Roboto';
+}
+li
+{
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.header-logo, a
+{
+    color: #F9FAf8;
+}
+
+.header-logo
+{
+    font-size: 24px;
+    padding-left: 48px;
+
+}
+.nav-bar
+{
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+}
+
+.nav-links
+{
+    display: flex;
+    font-size: 18px;
+    margin-left: auto;
+    padding-right: 48px;
+    gap: 12px;
+}
