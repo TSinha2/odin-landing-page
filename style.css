@@ -1,12 +1,11 @@
 /** Navbar/Header **/
 
- 
-
 body
 {
     margin: 0;
     font-family: 'Roboto';
 }
+
 li
 {
     list-style-type: none;
@@ -22,7 +21,7 @@ a
 .header-logo
 {
     font-size: 24px;
-    padding-left: 48px;
+    padding-left: 96px;
     color: #F9FAf8;
 }
 .nav-bar
@@ -39,4 +38,51 @@ a
     margin-left: auto;
     padding-right: 48px;
     gap: 12px;
+}
+
+/** Sec 1 **/
+
+.sec-one
+{
+    padding-top: 24px;
+    padding-bottom: 96px;
+    background-color: #1f2937;
+    display: flex;
+}
+
+.left-side
+{
+    padding-left: 96px;
+    margin-right: auto;
+}
+
+.title
+{
+    color: #F9FAf8;
+    font-size: 48px;
+    font-weight: 1200;
+}
+
+.subtext
+{
+    display: flex;
+    color: #E5E7Eb;
+    max-width: 400px;
+    flex-wrap: wrap;
+}
+
+.sec-one-img
+{
+    width: 450px;
+    height: auto;
+    padding-right: 96px;
+}
+
+.sign-up
+{
+    background-color: #3882f6;
+    color: #F9FAf8;
+    padding: 12px 18px 12px 18px;
+    border: 0;
+    border-radius: 12px;
 }
