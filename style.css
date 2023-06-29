@@ -224,7 +224,17 @@ a
 
 .sec-four-subtext
 {
+    font-family: 'Roboto';
     font-weight: lighter;
     margin: 0;
     color: #e1e2df;
+}
+
+/** Footer **/
+.footer {
+    padding: 24px;
+    font-family: 'Roboto';
+    background-color: #1f2937;
+    color:#F9FAf8;
+    text-align: center;
 }
