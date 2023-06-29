@@ -99,7 +99,7 @@ a
 .sec-two-imgs
 {
     display: flex;
-    gap: 40px;
+    gap: 80px;
     text-align: center;
 
 }
@@ -108,7 +108,7 @@ a
 {
     display: flex;
     flex-direction: column;
-    max-width: 150px;
+    max-width: 200px;
     flex-wrap: wrap;
 }
 
@@ -124,11 +124,19 @@ a
 
 .sec-two-img
 {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     padding-right: 96px;
     margin: 0;
     padding: 0;
     border: 1px solid #3882f6;
     border-radius: 12px;
 }
+
+.subtext-2
+{
+    font-size: 18px;
+    color: #1f2937
+}
+
+/** Section Two **/
