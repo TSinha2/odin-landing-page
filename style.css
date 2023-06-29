@@ -139,7 +139,7 @@ a
     color: #1f2937
 }
 
-/** Section Two **/
+/** Section Three **/
 .sec-three
 {
     background-color: rgb(229,231,235);
@@ -170,4 +170,61 @@ a
     font-weight: bolder;
 }
 
+/** Section Four **/
+.sec-four-container
+{
+    display: flex;
+    padding: 100px;
+    /* margin: 8px; */
+    justify-content: center;
+}
 
+.sec-four
+{
+    background-color: #3882f6;
+    display: flex;
+    padding: 40px;
+    border-radius: 6px;
+    padding-right: 150px;
+}
+
+.sec-four-left-side
+{
+    display: flex;
+    margin-right: auto;
+    flex-direction: column;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-bottom: 0px;
+}
+
+.sec-four-sign-up
+{
+    /* background-color: transparent; */
+    border: 2px solid #E5E7Eb;
+    background-color: transparent;
+    width: 80px;
+    height: 40px;
+    align-self: center;
+    border-radius: 6px;
+    color: #F9FAf8;
+
+}
+
+.sec-four-title
+{
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    color: #F9FAf8;
+
+}
+
+.sec-four-subtext
+{
+    font-weight: lighter;
+    margin: 0;
+    color: #e1e2df;
+}
