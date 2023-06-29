@@ -86,3 +86,49 @@ a
     border: 0;
     border-radius: 12px;
 }
+
+/** Section Two **/
+
+.sec-two
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec-two-imgs
+{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+
+}
+
+.sec-two-img-container
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    flex-wrap: wrap;
+}
+
+.sec-two-title
+{
+    color: #1f2937;
+    font-weight:bolder;
+    font-size: 36px;
+    font-family: 'Roboto';
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sec-two-img
+{
+    width: 150px;
+    height: 150px;
+    padding-right: 96px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #3882f6;
+    border-radius: 12px;
+}
